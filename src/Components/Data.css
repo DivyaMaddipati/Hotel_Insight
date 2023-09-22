@@ -1,0 +1,11 @@
+/* Data.css */
+
+.Data {
+    width: 70%; /* Adjust the width as needed */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    float: left; /* Float the component to the left to create the column layout */
+  }
+  
+  /* Add styling for hotel data display here */
+  

@@ -1,0 +1,62 @@
+
+/* Filters.css */
+
+.Filters {
+    width: 30%; /* Set the width for the "Filters" component */
+    background-color: #f2f2f2; /* Background color for filters */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    float: left; /* Float the component to the left to create the column layout */
+    min-height: 100vh;
+  }
+  
+  .Filters h2 {
+    margin-bottom: 10px; /* Add spacing below the heading */
+  }
+  
+  .Filters form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+  }
+  
+  .filter-item {
+    display: flex;
+    align-items: center; /* Align label and input in a line */
+    margin-bottom: 15px;
+    margin: 0% 10% 5% 10% /* Add spacing between filter items */
+  }
+  
+  .filter-item label {
+    font-weight: bold;
+    flex: 1; /* Let the label expand to take available space */
+  }
+  
+  .filter-item input[type="range"],
+  .filter-item select {
+    flex: 4; /* Let the input/select element expand to take more space */
+  }
+  
+  .location-range-value {
+    flex: 1; /* Let the location range value element expand to take available space */
+    text-align: right; /* Align the location range value to the right */
+    margin-left: 10px; /* Add spacing between the range input and value */
+  }
+  
+  .Filters select {
+    flex: 1; /* Let the select element expand to take available space */
+    padding: 8px;
+    margin-bottom: 15px; /* Add spacing between inputs and dropdowns */
+  }
+  
+  .Filters button[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    margin: 10% 50% 0 35%;
+    cursor: pointer;
+  }
+  
+  /* Add additional styling as needed */
+  
